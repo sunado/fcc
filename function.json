@@ -1,15 +1,14 @@
 {
     "bindings": [
       {
-        "authLevel": "function",
+        "authLevel": "ANONYMOUS",
         "type": "httpTrigger",
         "direction": "in",
-        "name": "http",
+        "name": "vote",
         "methods": [
           "get",
           "post"
         ],
-        "route": "v1/{path:alpha?}/{sub:alpha?}"
       },
       {
         "type": "http",
